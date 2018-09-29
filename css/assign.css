@@ -1,0 +1,97 @@
+            body {
+                background-color: purple;
+            }
+            
+            header {
+                text-align: center;
+                padding: 30px;
+                margin: 30px;
+                color: white;
+            }
+            
+            div {
+                background-color: purple;
+                color: white;
+                padding: 10px;
+                margin: 5px;
+            }
+            
+            header button {
+                background-color: purple;
+                color: white;
+                border-radius: 10px;
+                padding: 10px;
+            }
+            
+            .font {
+                font-size: 1em;
+            }
+            
+            header a>button {
+                color: white;
+                text-transform: uppercase bold;
+                text-decoration: none;
+            }
+            
+            .add {
+                margin: 0px;
+                padding: 10px;
+                background-color: palevioletred;
+                font-weight: bold;
+                font-size: xx-large;
+                text-align: center;
+            }
+            
+            .mul {
+                margin: 0px;
+                padding: 20px;
+                font-weight: bold;
+                font-size: x-large;
+            }
+            
+            .sub {
+                margin: 0px;
+                padding: 3px;
+                font-size: 1.1em;
+            }
+            
+            .left {
+                float: left;
+                margin: 50%;
+                text-justify: auto;
+            }
+            
+            .box {
+                width: 45%;
+                padding: 10px;
+                margin: 0px;
+                position: relative;
+            }
+            
+            .box1 {
+                width: calc();
+                padding: 15px;
+                margin: 2px;
+                position: relative;
+            }
+            
+            .right {
+                float: right;
+            }
+            
+            .clear {
+                clear: both;
+            }
+            
+            footer {
+                margin: 2px;
+                padding: 10px;
+                border-top: 30px;
+                border-style: solid;
+            }
+            
+            .group::before,
+            .group::after {
+                content: "";
+                display: table;
+            }
