@@ -1,0 +1,49 @@
+body {
+    background-color: darkblue;
+    margin: 0px 80px;
+    color: #ffffff;
+}
+
+figure img {
+    width: 40%;
+    margin: 40px;
+    border: 0px;
+}
+
+.left {
+    float: left;
+    margin: 40px;
+    border: 100% solid white;
+}
+
+.right {
+    float: right;
+    margin: 40px;
+    border: 100% solid white;
+}
+
+.button {
+    background-color: yellow;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.butt {
+    color: orange;
+    text-decoration: none;
+    border: 30px;
+}
+
+.cle {
+    clear: both;
+}
+
+div>section {
+    padding: 5px;
+    margin: 10px;
+}
+
+li {
+    padding: 5px;
+}
